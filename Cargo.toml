@@ -1,0 +1,31 @@
+[package]
+name = "chat_backend"
+version = "0.1.0"
+authors = ["alex"]
+edition = "2018"
+
+
+[dependencies]
+ws = "0.9.1"
+bcrypt = "0.8.2"
+env_logger = "0.6"
+log = "0.4.11"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+uuid = "0.8.1"
+chrono = "0.4.15"
+time = "0.2.17"
+simple_logger = "^1"
+config = "0.10.1"
+
+warp= "0.2.5"
+tokio = {version= "0.2", features=["full"]}
+
+futures = "0.3.1"
+bytes = "^0.5"
+
+[dependencies.mongodb]
+version = "^1.1"
+default-features = false
+features = ["sync"]

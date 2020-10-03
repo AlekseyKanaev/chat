@@ -1,0 +1,20 @@
+db:
+  host:
+    localhost
+  port:
+    27017
+  database:
+    chat
+  user:
+    root
+  password:
+    example
+
+http:
+  ip:
+    127.0.0.1
+  port:
+    3030
+
+ws_url:
+  192.168.1.67:30066
