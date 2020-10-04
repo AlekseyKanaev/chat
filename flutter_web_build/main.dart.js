@@ -28756,7 +28756,7 @@ n=B.Ht(U.Hk(j).c.a.h(0,"charset"))
 m=o.x
 P.cP(n.cr(0,m))
 l=C.ae.cr(0,B.Ht(U.Hk(j).c.a.h(0,"charset")).cr(0,m))
-k=R.ab3(P.tf("ws://192.168.1.67:30066"))
+k=R.ab3(P.tf("ws://localhost:30066"))
 P.cP(a)
 q.Q.f6(0,C.fW)
 q.z.f6(0,C.fW)
